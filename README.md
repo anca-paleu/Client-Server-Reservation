@@ -7,7 +7,7 @@ Technologies Used
 * **Database:** PostgreSQL 
 * **ORM:** Hibernate with Panache (JPA)
 
-##Features
+Features
 When a client connects, the server generates a unique Client ID. The client can then use the following commands via the console:
 * `LIST` - View all currently reserved slots 
 * `RESERVE [time]` - Create a new reservation (prevents double-booking) 
